@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cahier de bord</title>
+<link rel="stylesheet" href="style/cdb1.css">
+<link rel="stylesheet" href="style/swiper.min.css">
+<link rel="shortcut icon" type="image/png" href="img/icone.png"/>
+
+</head>
+<body>
+  <center>
+  <p><h3>Déplacer vers la droite !!!</h3></p>
+</center>
+  <div class="menu">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+
+<div width="5%">
+  <img src="gif\Fleche.gif">
+ </div>
+ 
+ <div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+  <h3>Gantt</h3>
+</div>
+<div class="content">
+<p>
+L'usage de gantt a été nécessaire pour planifier l'ordre de déroulement du projet pour les mois à venir.
+La planification des tâches et de nombreuses ressources ont été appliqué pour lancer la mise en marche de ce dernier.
+</p>
+<a href="#">Voir</a>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+  <h3>Diagrammes</h3>
+</div>
+<div class="content">
+<p>
+De nombreux diagrammes ont été utilisé pour exprimé dans un premier temps le besoin du client.
+Puis, en second lieu le fonctionnement de celui-ci au sein de son environnement avec l'usage
+des diagrames de cas d'utilisation,de séquence et de déploiement.
+</p>
+<a href="../pdf\Diagrammes.pdf"target="_blank">Voir</a>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+  <h3>Nomenclature</h3>
+</div>
+<div class="content">
+<p>
+La Liste du matériel nécessaire pour la conception du projet.
+</p>
+<a href="../pdf\Nomenclature.pdf"target="_blank">Voir</a>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+  <h3>Travaux RP1</h3>
+</div>
+<div class="content">
+<p>
+Cette rubrique regroupe les travaux personnels, réalisé par chaque membre de l'équipe lors de la première revue de projet.
+</p>
+<a href="../pdf\TPlaurent.pdf"target="_blan">PARNY Laurent</a>&nbsp;<a href="../pdf\TPleny.pdf"target="_blank">PIVETAL Leny</a><br>
+<a href="../pdf\TPisaac2.pdf"target="_blank">MERLIN Isaac</a>&nbsp;<a href="../pdf\TPrilos1.pdf"target="_blank">MELCHIOR Rilos</a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+<script src="style/swiper.min.js"></script>
+<script>
+
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+<br><br><br><br>
+<center>
+  <a href="../index.html"><button>Page d'acceuil</button></a>
+</center>
+</body>
+</html>
