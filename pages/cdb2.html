@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cahier de bord</title>
+<link rel="stylesheet" href="style/cdb1.css">
+<link rel="stylesheet" href="style/swiper.min.css">
+<link rel="shortcut icon" type="image/png" href="img/icone.png"/>
+
+</head>
+<body>
+  <center>
+  <p><h3>Déplacer vers la droite !!!</h3></p>
+</center>
+ <div class="menu">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+
+<div width="5%">
+  <img src="gif\Fleche.gif">
+ </div>
+ 
+ <div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+  <h3>Gantt</h3>
+</div>
+<div class="content">
+<p>
+La mise en place des ressources nécessaire au projet seront fondamentals. Elles nous permettront de connaître le matériel à avoir pour réaliser le projet.
+</p>
+<a href="#">Voir</a>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+  <h3>Travaux RP2</h3>
+</div>
+<div class="content">
+<p>
+Cette rubrique regroupe les travaux personnels, réalisé par chaque membre de l'équipe lors de la deuxième revue de projet.
+</p>
+<a href="#">PARNY Laurent</a>&nbsp;<a href="#">PIVETAL Leny</a><br>
+<a href="#">MERLIN Isaac</a>&nbsp;<a href="#">MELCHIOR Rilos</a>
+
+</div>
+</div>
+</div>
+ <div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+ <h3>Cahier de recette</h3>
+</div>
+<div class="content">
+<p>
+Un cachier de recette a été rédiger pour suivre et valider toute les procédures nécessaire au déroulement du projet.
+</p>
+<a href="../pdf\Recette.pdf" target="_blank">Voir</a>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="card">
+ <div class="slidertext">
+ <h3>Versioning</h3>
+</div>
+<div class="content">
+<p>
+
+</p>
+<a href="#">Voir</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+<script src="style/swiper.min.js"></script>
+<script>
+
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+<br><br><br><br>
+<center>
+  <a href="../index.html"><button>Page d'acceuil</button></a>
+</center>
+</body>
+</html>
